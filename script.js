@@ -41,9 +41,9 @@ const poemLines = [
     "como el amarillo del sol que ilumina la esquina…",
     "Lo sentía tan cercano,",
     "lo sentía desde niña 🌻",
-    "Gracias por existir, mi personita especial.",
+    "Gracias por existir ✨, mi personita especial.",
     "alias la chaparra xd",
-    "Abrashooo psicológico a la distancia."
+    "Abrashooo psicológico de 🧸 a la distancia ✨."
 ];
 
 let currentLineIndex = 0;
