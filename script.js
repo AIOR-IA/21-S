@@ -43,7 +43,7 @@ const poemLines = [
     "lo sentía desde niña 🌻",
     "Gracias por existir ✨, mi personita especial.",
     "alias la chaparra xd",
-    "Abrashooo psicológico de 🧸 a la distancia ✨."
+    "Abrashooo psicológico a la distancia ✨."
 ];
 
 let currentLineIndex = 0;
