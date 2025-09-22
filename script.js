@@ -74,8 +74,13 @@ setTimeout(() => {
 
 setInterval(showNextLine, displayTime + fadeTime);
                             
-document.addEventListener('click', () => {
+
+function enableAudioOnce() {
     const audio = document.getElementById('background-music');
     audio.volume = 0.6;
-    audio.play();
-}, { once: true }); 
+    audio.play().catch((e) => console.log('playback failed:', e));
+}
+
+// Activar música en la primera interacción (táctil o clic)
+window.addEventListener('click', enableAudioOnce, { once: true });
+window.addEventListener('touchstart', enableAudioOnce, { once: true });
